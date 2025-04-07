@@ -35,7 +35,7 @@ public class InputProcessor {
         }       
     }
     private void stopProgram(String text, String command) {
-        if (command.toLowerCase().equals(command)) {
+        if (text.toLowerCase().equals(command)) {
             System.exit(0);   
         }
     }

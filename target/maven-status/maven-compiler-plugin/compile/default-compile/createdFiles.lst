@@ -1,4 +1,11 @@
 com/example/aijavagrammar/service/AudioService.class
 com/example/aijavagrammar/App.class
+com/example/aijavagrammar/handler/ResultExtractorHandler.class
+com/example/aijavagrammar/dto/AiResponseInfoDTO.class
+com/example/aijavagrammar/model/InputMode.class
+com/example/aijavagrammar/handler/AiResponseHandler.class
+com/example/aijavagrammar/service/TextInputService.class
+com/example/aijavagrammar/processor/InputProcessor.class
 com/example/aijavagrammar/service/AiService.class
+com/example/aijavagrammar/service/ModeService.class
 com/example/aijavagrammar/service/RecognizerService.class
