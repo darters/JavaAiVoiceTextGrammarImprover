@@ -1,18 +1,22 @@
 package com.example.aijavagrammar;
 
-import com.example.aijavagrammar.service.AiService;
+import com.example.aijavagrammar.handler.ResultExtractorHandler;
+import com.example.aijavagrammar.processor.InputProcessor;
 import com.example.aijavagrammar.service.AudioService;
-import com.example.aijavagrammar.service.InputModeService;
+import com.example.aijavagrammar.service.ModeService;
+import com.example.aijavagrammar.service.RecognizerService;
 import com.example.aijavagrammar.service.TextInputService;
 
 public class App {
     public static void main(String[] args) {
-        AiService aiService = new AiService();
         AudioService audioService = new AudioService();
         TextInputService textInputService = new TextInputService();
+        RecognizerService recognizerService = new RecognizerService();
+        ResultExtractorHandler resultExtractorHandler = new ResultExtractorHandler();
 
-        InputModeService inputModeService = new InputModeService(aiService, audioService, textInputService);
-        inputModeService.textMode();
+        ModeService modeService = new ModeService(audioService, textInputService, resultExtractorHandler, recognizerService);
+        InputProcessor inputProcessor = new InputProcessor(modeService);
+        inputProcessor.start();
     }
 }        
          
