@@ -23,16 +23,21 @@ public class InputProcessor {
                 InputMode currentMode = modeService.changeMode(text);
                 if(currentMode == InputMode.VOICE) {
                     modeService.voiceMode(recognizedText -> {                      
-                        System.out.println("Recognized text is: " + recognizedText);
                         processSentence(recognizedText, "Awaiting speech");
                     });
                 }
                 if (currentMode == null) {
+                    stopProgram(text, "stop");
                     processSentence(text, "Awaiting text");
                 }
     
             });
         }       
+    }
+    private void stopProgram(String text, String command) {
+        if (command.toLowerCase().equals(command)) {
+            System.exit(0);   
+        }
     }
 
     private void processSentence(String text, String waitingMessage) {

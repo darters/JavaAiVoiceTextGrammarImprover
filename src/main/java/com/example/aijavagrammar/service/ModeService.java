@@ -35,6 +35,7 @@ public class ModeService {
             audioService.startListening(audio -> {
                 recognizerService.recognizeAudioStream(audio, 10, textJson -> {
                     resultExtractorHandler.extractResult(textJson, text -> {
+                        System.out.println("Recognized text is: " + text);
                         callback.accept(text);
                     });
                 }); 
