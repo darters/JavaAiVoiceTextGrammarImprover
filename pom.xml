@@ -26,11 +26,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.alphacephei</groupId>
-      <artifactId>vosk</artifactId>
-      <version>0.3.45</version>
-    </dependency>
-    <dependency>
       <groupId>com.openai</groupId>
       <artifactId>openai-java</artifactId>
       <version>0.34.1</version>
@@ -100,7 +95,43 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.2</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <mainClass>com.example.aijavagrammar.App</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-shade-plugin</artifactId>
+          <version>3.6.0</version>
+          <executions>
+            <execution>
+              <phase>package</phase>
+              <goals>
+                <goal>shade</goal>
+              </goals>
+              <configuration>
+                <finalName>aijavagrammar</finalName>
+                <transformers>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                    <mainClass>com.example.aijavagrammar.App</mainClass>
+                  </transformer>
+                </transformers>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin> 
+    </plugins>
   </build>
 </project>

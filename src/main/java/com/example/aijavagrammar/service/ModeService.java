@@ -33,7 +33,7 @@ public class ModeService {
         voiceModeThread = new Thread(() -> {
             recognizerService.init();
             audioService.startListening(audio -> {
-                recognizerService.recognizeAudioStream(audio, 10, textJson -> {
+                recognizerService.recognizeAudioStream(audio, 1, textJson -> {
                     resultExtractorHandler.extractResult(textJson, text -> {
                         System.out.println("Recognized text is: " + text);
                         callback.accept(text);
