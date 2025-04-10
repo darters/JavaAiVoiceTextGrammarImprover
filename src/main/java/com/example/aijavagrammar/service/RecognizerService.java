@@ -9,6 +9,8 @@ import javax.sound.sampled.TargetDataLine;
 import org.vosk.Model;
 import org.vosk.Recognizer;
 
+import com.example.aijavagrammar.dto.AppConfigDTO;
+
 public class RecognizerService {
     private Model voskModel;
     private Recognizer recognizer;
@@ -16,7 +18,7 @@ public class RecognizerService {
     private static final int SAMPLE_RATE = 16000;
     private final byte[] buffer = new byte[BUFFER_SIZE];
     private static final Logger LOGGER = Logger.getLogger(RecognizerService.class.getName());
-    private static final String MODEL_PATH = "/home/yehor/models/vosk-model-en-us-0.42-gigaspeech";
+    private static final String MODEL_PATH = AppConfigDTO.get("MODEL_PATH");
     
 
     public void stop() {
