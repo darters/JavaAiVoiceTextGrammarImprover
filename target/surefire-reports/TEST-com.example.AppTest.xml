@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire/surefirebooter5733723045933545657.jar /home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire 2025-04-08T20-53-47_816-jvmRun1 surefire17711795017332963937tmp surefire_011326281740570420276tmp"/>
+    <property name="sun.java.command" value="/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire/surefirebooter9827179721562669579.jar /home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire 2025-04-11T18-17-49_143-jvmRun1 surefire5557141890409094512tmp surefire_010929151324750166835tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/test-classes:/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/classes:/home/yehor/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/yehor/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/yehor/.m2/repository/com/openai/openai-java/0.34.1/openai-java-0.34.1.jar:/home/yehor/.m2/repository/com/openai/openai-java-client-okhttp/0.34.1/openai-java-client-okhttp-0.34.1.jar:/home/yehor/.m2/repository/com/openai/openai-java-core/0.34.1/openai-java-core-0.34.1.jar:/home/yehor/.m2/repository/com/google/errorprone/error_prone_annotations/2.33.0/error_prone_annotations-2.33.0.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.1/jackson-datatype-jdk8-2.18.1.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.1/jackson-datatype-jsr310-2.18.1.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.18.1/jackson-module-kotlin-2.18.1.jar:/home/yehor/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.8.10/kotlin-reflect-1.8.10.jar:/home/yehor/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/home/yehor/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/home/yehor/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/home/yehor/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/yehor/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/yehor/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/yehor/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/yehor/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/yehor/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar:/home/yehor/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar:/home/yehor/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar:/home/yehor/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.1.10/kotlin-stdlib-2.1.10.jar:/home/yehor/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/yehor/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar:/home/yehor/.m2/repository/com/alphacephei/vosk/0.3.45/vosk-0.3.45.jar:/home/yehor/.m2/repository/net/java/dev/jna/jna/5.7.0/jna-5.7.0.jar:/home/yehor/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/java-dotenv-5.2.2.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/home/yehor/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire/surefirebooter5733723045933545657.jar"/>
+    <property name="surefire.real.class.path" value="/home/yehor/Projects/AiGrammarJava/aijavagrammar/target/surefire/surefirebooter9827179721562669579.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="yehor"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.AppTest" time="0.002"/>
 </testsuite>

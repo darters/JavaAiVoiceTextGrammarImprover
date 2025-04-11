@@ -6,6 +6,7 @@ com/example/aijavagrammar/model/InputMode.class
 com/example/aijavagrammar/handler/AiResponseHandler.class
 com/example/aijavagrammar/service/TextInputService.class
 com/example/aijavagrammar/processor/InputProcessor.class
+com/example/aijavagrammar/dto/AppConfigDTO.class
 com/example/aijavagrammar/service/AiService.class
 com/example/aijavagrammar/service/ModeService.class
 com/example/aijavagrammar/service/RecognizerService.class

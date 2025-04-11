@@ -5,6 +5,7 @@
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/handler/AiResponseHandler.java
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/App.java
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/handler/ResultExtractorHandler.java
+/home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/dto/AppConfigDTO.java
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/service/AudioService.java
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/service/AiService.java
 /home/yehor/Projects/AiGrammarJava/aijavagrammar/src/main/java/com/example/aijavagrammar/service/TextInputService.java
